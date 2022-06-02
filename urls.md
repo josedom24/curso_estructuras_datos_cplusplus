@@ -12,6 +12,7 @@
 
 * https://www.cartagena99.com/recursos/alumnos/apuntes/07_tads.pdf (!!!)
 * https://www.infor.uva.es/~mserrano/EDI/cap2.pdf
+* También puede ser interesante: http://www.lcc.uma.es/~vicente/docencia/docencia/mp_tema_2.la.pdf
 
 ## Templates en C++
 

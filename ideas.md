@@ -5,7 +5,7 @@
 
 * Hay que empezar hablando de la abstracción: El exceso de detalles hace más difícil tratar con los problemas.Para concentrarnos en lo realmente importante,abstraemos el problema, eliminando todos los detalles innecesarios.
 	* Tipos de abstracción: 
-		* Funcional: abstrae una operación. Programación estructurada y modular. Uso de funciones. especificación e implementación. **Añadimos operaciones.
+		* Funcional: abstrae una operación. Programación estructurada y modular. Uso de funciones. especificación e implementación. **Añadimos operaciones**.
 		* De datos: Abstrae un tipo de dato. El uso que se puede hacer de este tipo. **Añadimos tipos de datos**. 
 
 * ¿Cómo podemos modelar la abstracción de datos? Usando un modelo matemático: los TAD.
@@ -28,7 +28,7 @@
 
 ### Tipos Abstractos de Datos en C++: Clases
 
-Una clase, en C++, es una estructura de datos que contiene, además de la información propia de uncierto elemento (igual que un registro), los procedimientos y funciones propias para manipular‘correctamente’ la información contenida en el registro.
+Una clase, en C++, es una estructura de datos que contiene, además de la información propia de un cierto elemento (igual que un registro), los procedimientos y funciones propias para manipular‘correctamente’ la información contenida en el registro.
 
 Se definen dos apartados: apartado público, y apartado privado.
 La declaración de una clase en unfichero.h (por ejemplo,fecha.h), y su implementación en unfichero .cpp asociado(por ejemplo, fecha.cpp).
