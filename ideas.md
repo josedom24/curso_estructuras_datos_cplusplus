@@ -31,7 +31,7 @@
 Una clase, en C++, es una estructura de datos que contiene, además de la información propia de un cierto elemento (igual que un registro), los procedimientos y funciones propias para manipular‘correctamente’ la información contenida en el registro.
 
 Se definen dos apartados: apartado público, y apartado privado.
-La declaración de una clase en unfichero.h (por ejemplo,fecha.h), y su implementación en unfichero .cpp asociado(por ejemplo, fecha.cpp).
+La declaración de una clase en un fichero .h (por ejemplo,fecha.h), y su implementación en un fichero .cpp asociado(por ejemplo, fecha.cpp).
 
 
 
