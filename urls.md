@@ -4,6 +4,15 @@
 
 * https://openwebinars.net/academia/portada/introduccion-estructuras-datos/
 
+## Abstracción
+
+* http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/Tema_10.pdf (!!!!). Curso completo:http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/
+
+## TAD
+
+* https://www.cartagena99.com/recursos/alumnos/apuntes/07_tads.pdf (!!!)
+* https://www.infor.uva.es/~mserrano/EDI/cap2.pdf
+
 ## Templates en C++
 
 * https://codingornot.com/cc-plantillas-templates-en-c
@@ -32,8 +41,12 @@
 
 * https://elvex.ugr.es/decsai/algorithms/slides/2%20Eficiencia.pdf
 * Ejemplos en javascript: https://www.asanzdiego.com/2018/12/la-notacion-o-grande-con-ejemplos-en-javascript.html
+* http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/Tema_9.pdf !!!!!
+
 
 ## Listas
 
 * Listas enlazadas en c++: https://parzibyte.me/blog/2021/05/20/lista-ligada-cpp/
 * Lista generalizada: https://ronnyml.com/2009/07/04/listas-enlazadas-clase-lista-en-c/
+
+
