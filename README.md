@@ -3,13 +3,13 @@
 Curso sobre diseño de algoritmos y estructuras de datos en C++.
 
 1. Programación y abstracción
-	* ¿Qué es la abstracción?. Tipos de abstracción.
+	* ¿Qué es la abstracción?. Niveles de abstracción. (3)
 	* Abstracción funcional
 	* Abstracción de datos
 	* Tipos de datos
 	* Estructuras de datos
 	* Tipos abstractos de datos
-	* Ejemplo: TAD Fecha, TAD Cadena
+	* Ejemplo: TAD Fecha
 
 2. Implementación de la abstracción usando C++
 	* Abstracción funcional en C++
@@ -17,18 +17,21 @@ Curso sobre diseño de algoritmos y estructuras de datos en C++.
 	* Estructuras de datos en C++
 	* Implementación de TAD en C++: POO
 	* Generalización de las estructuras de datos
-	* Ejemplo: Implementación del TAD Fecha o Cadena en C++
+	* Repaso de C++: Programación Orientada a Objetos
+	* Ejemplo: Implementación del TAD Fecha
 
 3. Introducción al estudio de algoritmos y su complejidad
 	* Complejidad de algoritmos
 	* Notación O grande
 	* Eficiencia con funciones recursivas
+	* Repaso de C++: Funciones, pasos de parámetros, punteros.
 	* Ejemplos de análisis de algoritmos
 
 4. Uso de estructuras de datos estáticas
 	* TAD array
 	* Uso de arrays en C++
 	* Implementación del TAD array con programación orientada a objetos
+	* Repaso de C++: Templates
 	* Implementación del TAD array con programación genérica
 	* Análisis de eficiencia usando arrays en C++
 

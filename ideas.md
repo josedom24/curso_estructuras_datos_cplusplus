@@ -33,5 +33,72 @@ Una clase, en C++, es una estructura de datos que contiene, además de la inform
 Se definen dos apartados: apartado público, y apartado privado.
 La declaración de una clase en un fichero .h (por ejemplo,fecha.h), y su implementación en un fichero .cpp asociado(por ejemplo, fecha.cpp).
 
+----
+
+Sacado de (1)
+
+A la hora de crear un Tipo Abstracto de Datos, la ecuación a seguir es, es decir, determinar como es la **estructura de datos** y cuales son los **algoritmos de control** para manera los datos, en otras palabras, las **operaciones sobre los datos** que se pueden hacer, o interesa hacer, sobre la mencionada estructura de datos.
+
+Cuando ya se tiene bien diseñado un Tipo Abstracto de Dato, el siguiente paso es decidir una implantación. Esto supone elegir algunas de las estructuras de datos que nos proporcione el lenguaje de programación utilizado para representar cada uno de los objetos abstractos y, por otro lado, escribir una rutina (Procedimiento o función) en tal lenguaje que simule el funcionamiento de cada una de las operaciones especificadas para el TAD.
+
+La selección de las estructuras de datos determina la complejidad del algoritmo que implanta una operación y su elección es, por esta razón, de gran importancia.
+
+------
+
+Sacado de (2)
+
+Una estructura de datos es una estrategia de almacenamiento en memoria de la información que se desea guardar. Muchos TADs se implementan utilizando estructuras de datos. Por ejemplo, los TADS pilas y colas pueden implementarse usando la estructura de datos de las listas enlazadas.
 
 
+
+----
+Sacado de (3)
+
+Para representar el modelo matemático básico de un TAD se emplean estructuras de datos y las operaciones definidas en el modelo se representan mediante procedimientos. Por ejemplo, se podría definir el TAD número complejo como un objeto con dos componentes que son números reales y sobre el que se define las operaciones suma y producto de números complejos. En una definición de este tipo no importa si en un programa concreto se utiliza una estructura tipo registro (record en Pascal, structure en otros lenguajes, p.ej. C) con dos campos para representar los datos o bien una estructura tipo array con dos elementos. Desde el punto de vista formal ese tipo de información es irrelevante.
+
+Así mismo, no es necesario conocer cómo se realizan las operaciones definidas formalmente, sólo importa qué hacen para poder usarlas correctamente.
+
+
+---
+ 
+TAD Fecha (Sacado de (3))
+
+Dominio: Cualquier fecha válida.
+Operaciones:
+
+* Iniciar (Fecha)
+* Recuperar() -> Fecha
+* Comparar (Fecha) -> Lógico
+* Imprimir ()
+* Distancia (Fecha) -> Entero //Devuelve los días que han pasado a la fecha dada
+* diaSemana() 
+* diaAnyo()
+* Dia() -> Entero //Devuel el dia
+* Mes() -> Entero
+* Año() -> Entero
+
+
+Implementación = ¿Qué estructura de datos podemos usar para representar el dominio? Tendríamos muchas opciones:
+
+* 3 enteros (dia,mes,año)
+* dia (entero) mes (string) año(entero)
+* ida desde el 1 de enero, año (entero)
+* número de segundos que ha pasado desde 1 de enero 1970
+* ...
+
+Según la estructura de datos puede ser más fácil o más difícil implementar algunas de las operaciones. Y lo más importante la estructura de datos elegida puede influir en la eficiencia de los algoritmos con los que vamos a implementar las operaciones.
+
+Implementación con C++
+
+Vamos a usar POO. Vamos a crear una clase.
+
+* La **parte privada** de la clase determina la estructura de datos interna de los objetos del tipo, y es la que limita el dominio. 
+* La **parte pública** corresponde a las operaciones que se pueden usar externamente, y es completamente independiente (desde el punto de vista del usuario) de la parte privada. Se suele llamar también API (Application Programming Interface).
+* Si tras el análisis del problema necesitamos usar métodos auxiliares que faciliten la implementación de las operaciones principales, se pueden poner en la **parte privada**. Por ejemplo esBisiesto.
+
+Algunas consideraciones:
+
+* Podemos cambiar la estructura de datos y los algortimos que la manipulan. Pero al no cambiar el especificación de las operaciones, será trasparente para el usuario que usa la clase.
+* Obtenemos **protección**  intentar acceder a partes privadas de la clase produce errores de compilación. 
+* La característica de no acceder o modificar los valores de los atributos directamente y utilizar métodos para ello lo llamamos encapsulamiento.
+* Concepto de módulo - un conjunto de datos y operaciones fuertemente relacionadas que, externamente, se pueden ver como una unidad, y a las cuales se accede mediante una interfaz bien definida. En C++ la **declaración** de una calse se escribe en el fichero `fecha.h` y su implementación en un fichero .cpp asociado(por ejemplo, `fecha.cpp`).

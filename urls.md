@@ -4,13 +4,17 @@
 
 * https://openwebinars.net/academia/portada/introduccion-estructuras-datos/
 
+# Buen resumen
+
+* (1) https://gsitic.wordpress.com/2018/01/08/biii8-tipos-abstractos-de-datos-y-estructuras-de-datos-tablas-listas-y-arboles-algoritmos-ordenacion-busqueda-grafos-organizacion-de-ficheros/
+
 ## Abstracción
 
-* http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/Tema_10.pdf (!!!!). Curso completo:http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/
+* (3) http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/Tema_10.pdf (!!!!). Curso completo:http://informatica.uv.es/iiguia/AED/oldwww/2001_02/Teoria/
 
 ## TAD
 
-* https://www.cartagena99.com/recursos/alumnos/apuntes/07_tads.pdf (!!!)
+* (2) https://www.cartagena99.com/recursos/alumnos/apuntes/07_tads.pdf (!!!)
 * https://www.infor.uva.es/~mserrano/EDI/cap2.pdf
 * También puede ser interesante: http://www.lcc.uma.es/~vicente/docencia/docencia/mp_tema_2.la.pdf
 
